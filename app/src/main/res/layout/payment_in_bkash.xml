@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+
+        <include android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="570dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/toolbar">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shap1">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="16dp"
+                    android:text="bKash Pay from your A/C"
+                    android:textColor="#000"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView11"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="22dp"
+                    android:text="Focus Wallet: 01521434851"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView13"
+                    android:layout_below="@+id/textView13"
+                    android:layout_marginTop="18dp"
+                    android:text="Amount :"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/txt_ammount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textView15"
+                    android:layout_marginStart="12dp"
+                    android:layout_toEndOf="@+id/textView15"
+                    android:drawableLeft="@drawable/ic_taka_icon"
+                    android:hint="Amount"
+                    android:textColor="#000"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView15"
+                    android:layout_below="@+id/txt_ammount"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="12dp"
+                    android:text="Reference: 1     Counter: 1"
+                    android:textColor="#000"
+                    android:textSize="17dp" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/e_trxId"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/relativeLayout2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/shap1"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Enter TRX ID(10 digit)"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/b_payment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/e_trxId"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="72dp"
+                android:background="@drawable/button_style"
+                android:onClick="onButtonClick"
+                android:text="Pay"
+                android:textColor="#fff"
+                android:textSize="22dp" />
+
+            <Button
+                android:id="@+id/b_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/b_payment"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="23dp"
+                android:background="@drawable/button_style"
+                android:onClick="onButtonClick"
+                android:text="Cancel"
+                android:textColor="#fff"
+                android:textSize="22dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

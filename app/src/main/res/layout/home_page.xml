@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.atik_faysal.focuslab.HomePage"
+    tools:showIn="@layout/app_bar_home_page">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="550dp">
+
+        <ImageView
+            android:id="@+id/Official_photo"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:background="@drawable/textfield_style"
+            app:srcCompat="@mipmap/user"
+            android:layout_marginTop="88dp"
+            android:clickable="true"
+            android:onClick="officialPhotoButtonClick"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Official_photo"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Print Official Photo"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/GallerayPhoto"
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="36dp"
+            android:clickable="true"
+            android:onClick="printPhotofromGallery"
+            app:srcCompat="@drawable/cammera"
+            android:background="@drawable/textfield_style"
+            android:layout_below="@+id/textView3"
+            android:layout_alignStart="@+id/Official_photo" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/GallerayPhoto"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:text="Print From Gallery"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+
+    </RelativeLayout>
+</ScrollView>

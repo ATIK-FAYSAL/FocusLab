@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/new_order"
+            android:icon="@drawable/new_order_icon"
+            android:title="New Order" />
+        <item
+            android:id="@+id/last_order"
+            android:icon="@drawable/last_order_icon"
+            android:title="History" />
+        <item
+            android:id="@+id/payment"
+            android:icon="@drawable/draft_icon"
+            android:title="Payment" />
+
+        <item
+            android:id="@+id/focus_point"
+            android:icon="@drawable/location_icon"
+            android:title="Focus Point" />
+        <item
+            android:id="@+id/support"
+            android:icon="@drawable/support_icon"
+            android:title="Support" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/feedback_icon"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/about_us_icon"
+            android:title="About Us" />
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/signout"
+            android:title="Log Out" />
+    </group>
+
+
+</menu>

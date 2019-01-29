@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "523099281304",
+    "firebase_url": "https://focuslab-4bedf.firebaseio.com",
+    "project_id": "focuslab-4bedf",
+    "storage_bucket": "focuslab-4bedf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523099281304:android:2f62ef352903f55e",
+        "android_client_info": {
+          "package_name": "com.example.atik_faysal.focuslab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523099281304-va7o3f3gna4cqsttkuf6ngk0rcji60bg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.atik_faysal.focuslab",
+            "certificate_hash": "88db4858f507387acd568265a6d45606d4d6a372"
+          }
+        },
+        {
+          "client_id": "523099281304-6d8fpp2s087bnn2ibgjn1hnebon6gjtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnWpRsBfuAEmCHuNWJlApYqar8hzPgs_Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523099281304-6d8fpp2s087bnn2ibgjn1hnebon6gjtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

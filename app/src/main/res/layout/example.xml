@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/liniLay1"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/toolbar"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Name*"
+                android:textColor="#03A9F4"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/e_UserName"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView9"
+                android:layout_alignBottom="@+id/textView9"
+                android:layout_alignEnd="@+id/b_SaveOrder"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Your Name"
+                android:inputType="textPersonName"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/liniLay2"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/liniLay1"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Phone*"
+                android:textColor="#03A9F4"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/e_UserPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView21"
+                android:layout_alignBottom="@+id/textView21"
+                android:layout_alignStart="@+id/e_UserName"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="01XXXXXXXXX"
+                android:inputType="phone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/liniLay3"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/liniLay2"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Email*"
+                android:textColor="#03A9F4"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/e_UserEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView26"
+                android:layout_alignBottom="@+id/textView26"
+                android:layout_alignStart="@+id/e_UserPhone"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Your Email"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/liniLay4"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/liniLay3"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="Photo*"
+                android:textColor="#03A9F4"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/e_PhotoId"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView27"
+                android:layout_alignBottom="@+id/textView27"
+                android:layout_alignStart="@+id/e_UserEmail"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="B0XXXXX"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/liniLay4"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/liniLay5">
+
+            <Spinner
+                android:id="@+id/s_PhotoSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/e_PhotoId"
+                android:layout_alignStart="@+id/textView27"
+                android:layout_below="@+id/e_PhotoId" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/liniLay5"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/liniLay6">
+
+            <Spinner
+                android:id="@+id/s_TotalCopy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/s_PhotoSize"
+                android:layout_alignStart="@+id/s_PhotoSize"
+                android:layout_below="@+id/s_PhotoSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/liniLay6"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/liniLay7">
+
+            <TextView
+                android:id="@+id/txt_Ammount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/b_SaveOrder"
+                android:layout_alignStart="@+id/s_TotalCopy"
+                android:layout_below="@+id/s_TotalCopy"
+                android:gravity="center"
+                android:hint="Total Ammount"
+                android:textColor="#000"
+                android:textSize="22dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/liniLay7"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/liniLay8">
+
+            <Button
+                android:id="@+id/b_Pay"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:gravity="center"
+                android:text="Payment"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/b_SaveOrder"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_style"
+                android:onClick="saveOrderButton"
+                android:text="Save Order"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

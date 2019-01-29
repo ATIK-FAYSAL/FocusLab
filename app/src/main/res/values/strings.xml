@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Focus Lab</string>
+    <string name="title_activity_home_page">HomePage</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="app_id">143126123036417</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="account_kit_client_token">face154ed88a778873ccef348dffa36a</string>
+    <string name="action_bar_title_hello">Hello</string>
+    <string name="ak_login_protocol_scheme">akface154ed88a778873ccef348dffa36a</string>
+    <string name="client_token">face154ed88a778873ccef348dffa36a</string>
+    <string name="permissions_get_accounts_message">
+        Grant permission to read your email address from your device to pre-fill.
+    </string>
+    <string name="permissions_get_accounts_title">Read Email Address</string>
+    <string name="permissions_read_phone_state_message">
+        Grant permission to read your phone number from your device to pre-fill.
+    </string>
+    <string name="permissions_read_phone_state_title">Read Phone Number</string>
+    <string name="permissions_receive_sms_message">
+        Grant permission to read your SMS code from your device to pre-fill.
+    </string>
+    <string name="permissions_receive_sms_title">Read SMS Code</string>
+    <string name="log_in_email_button">Log In via Email</string>
+    <string name="log_in_phone_button">Log In via Phone</string>
+    <string name="log_out_button">Log Out</string>
+    <string name="error_label">Error</string>
+    <string name="loading_placeholder">Loading&#8230;</string>
+    <string name="user_id_label">Account ID</string>
+    <string name="phone_number_label">Phone Number</string>
+    <string name="email_label">Email</string>
+    <string name="na">NA</string>
+
+    <string-array name="photoSize1">
+        <item>Photo Size</item>
+        <item>Passport</item>
+        <item>Passport and Stamp</item>
+        <item>35mm x 45mm - Matt</item>
+        <item>35mm x 45mm - Glossy</item>
+        <item>50mm x 50mm - Glossy</item>
+        <item>35mm x 50mm - Matt</item>
+    </string-array>
+    <string-array name="photoSize2">
+        <item>Photo Size</item>
+        <item>Passport</item>
+        <item>Passport and Stamp</item>
+        <item>35mm x 45mm - Matt</item>
+        <item>35mm x 45mm - Glossy</item>
+        <item>50mm x 50mm - Matt</item>
+        <item>35mm x 50mm - Glossy</item>
+        <item>3R  3.5 x 5</item>
+        <item>4R  4 x 6</item>
+        <item>5R  5 x 7</item>
+        <item>6R  6 x 8</item>
+        <item>6L  6 x 9</item>
+        <item>8R  8 x 10</item>
+        <item>10R  10 x 12</item>
+        <item>10L  10 x 15</item>
+        <item>12R  12 x 16</item>
+        <item>12L  12 x 18</item>
+        <item>16R  16 x 20</item>
+        <item>20R  20 x 24</item>
+        <item>20L  20 x 30</item>
+        <item>30L  30 x 40</item>
+    </string-array>
+    <string-array name="Photo_Quantity">
+        <item>Total Copy</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
+        <item>28</item>
+        <item>30</item>
+        <item>32</item>
+        <item>34</item>
+        <item>36</item>
+        <item>38</item>
+        <item>40</item>
+
+    </string-array>
+    <string-array name="Photo_Quantity1">
+        <item>Total Copy</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+</resources>
